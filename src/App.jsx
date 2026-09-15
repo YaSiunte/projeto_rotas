@@ -8,8 +8,16 @@ import Contato from './pages/Contato'
 const App = () => {
   return (
     <Router>
-      <div className=''>
-
+      <div className='min-h-screen bg-cyan-500 text-cyan-800'>
+        <NavBar/>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/sobre" element={<Sobre/>} />
+            <Route path="/produtos" element={<Produtos/>} />
+            <Route path="/contato" element={<Contato/>} />
+          </Routes>
+        </main>
       </div>
     </Router>
   )
