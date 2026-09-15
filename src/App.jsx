@@ -7,9 +7,11 @@ import Contato from './pages/Contato'
 
 const App = () => {
   return (
-    <>
-      
-    </>
+    <Router>
+      <div className=''>
+
+      </div>
+    </Router>
   )
 }
 
